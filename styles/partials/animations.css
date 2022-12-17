@@ -1,0 +1,17 @@
+@keyframes up {
+    from {
+        opacity: 0;
+        transform: translateY(35px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-up {
+    transform: translateY(35px);
+    opacity: 0;
+
+    animation: up 200ms forwards;
+}
