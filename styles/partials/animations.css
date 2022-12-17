@@ -15,3 +15,7 @@
 
     animation: up 200ms forwards;
 }
+
+.delay-1 {
+    animation-delay: 100ms;
+}
