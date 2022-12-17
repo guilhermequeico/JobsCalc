@@ -1,0 +1,32 @@
+.button {
+  padding: 0.75rem 3rem;
+  border-radius: 0.313rem;
+  border: 0;
+
+  font-family: IBM Plex Sans;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+  text-transform: uppercase;
+
+  transition: all .2s;
+
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.button {
+  line-height: 1.5rem;
+}
+
+.button.orange {
+  background: var(--color-secondary);
+  color: var(--color-text);
+}
+
+.button.orange:hover {
+  background: #FA9C2D;
+}
