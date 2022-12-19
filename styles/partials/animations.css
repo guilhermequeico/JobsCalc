@@ -19,3 +19,7 @@
 .delay-1 {
     animation-delay: 100ms;
 }
+
+.delay-2 {
+    animation-delay: 200ms;
+}
