@@ -30,3 +30,32 @@ button.button {
 .button.orange:hover {
   background: #FA9C2D;
 }
+
+.button.white {
+  background: #FCFDFF;
+  border: 1px solid #E1E3E6;
+}
+
+.button.white:hover {
+  background: #F0F2F5;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+}
+
+.button + .button {
+  margin-left: 1rem;
+}
+
+.actions .button {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  padding: 0;
+}
+
+.actions .button + button {
+  margin-left: 0.5rem;
+}
